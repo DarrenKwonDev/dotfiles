@@ -5,12 +5,10 @@
 
 ## 키보드
 
-key board checker (https://en.key-test.ru/)
-
 윈도우 기반의 키보드를 맥의 내장 키보드와 순서를 맞추기 위해 다음과 같이 변경합니다
 
 <center>
-    <img src="./img/keyboard_kinesis_change.png" />
+    <img src="./img/keyboard_option_cmd_change.png" />
 </center>
 
 auto fix 기능을 모두 끕니다
