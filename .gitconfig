@@ -1,0 +1,10 @@
+[user]
+	name = DarrenKwonDev
+	email = darrenkwondev46@gmail.com
+[core]
+	precomposeunicode = true
+	quotepath = false
+[alias]
+	lg = log --all --decorate --oneline --graph
+[credential]
+	helper = osxkeychain
