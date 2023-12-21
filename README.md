@@ -20,6 +20,14 @@ auto fix 기능을 모두 끕니다
 
 https://johngrib.github.io/wiki/tools/alacritty/
 
+## vs
+
+키보드 매핑을 vscode 처럼 변경
+
+<center>
+    <img src="./img/vs_keyboard.png" />
+</center>
+
 ## ref
 
 https://subicura.com/2017/11/22/mac-os-development-environment-setup.html
