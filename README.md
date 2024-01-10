@@ -2,6 +2,11 @@
 
 개인적으로 사용하는 dotfile들과 기타 설정들에 대해 정리하였습니다.
 
+## .tool-versions for asdf
+
+node, python, golang 버저닝에 asdf를 사용합니다.  
+nvm, pyenv, gvm는 사용하지 않습니다.
+
 ## nvim
 
 원격 서버의 disk, mem 용량이 제한적일 때와 같이 제한적인 상황에서만 사용 중입니다.  
