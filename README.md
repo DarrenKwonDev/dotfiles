@@ -5,17 +5,17 @@
 ## window
 
 ps1, wt, wsl을 기본으로 사용합니다.  
-wsl에선 bash 기반의 툴셋이 여기서도 활용됩니다.  
+wsl에선 bash 기반의 툴셋이 여기서도 활용됩니다. 
 window native한 구성에는 추가적으로 아래 도구들도 활용합니다.  
 
 - https://www.hanselman.com/blog/scott-hanselmans-2021-ultimate-developer-and-power-users-tool-list-for-windows
 - https://www.hanselman.com/blog/taking-your-powershell-prompt-to-the-next-level-with-windows-terminal-and-oh-my-posh-3
 
+
 ## .tool-versions for asdf
 
 node, python, golang 버저닝에 asdf를 사용합니다.  
 nvm, pyenv, gvm는 사용하지 않습니다.
-
 
 
 ## tmux
@@ -76,6 +76,11 @@ space + u # toggle undo tree
 </center>
 
 </details>
+
+## shell theme, fonts etc
+
+agnoster theme에 powerline 지원이 되는 font를 선호합니다.    
+editor엔 Consolas, terminal은 Roboto Mono for Powerline을 사용합니다.
 
 ## ref
 
