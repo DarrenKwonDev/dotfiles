@@ -4,6 +4,7 @@
 [core]
 	precomposeunicode = true
 	quotepath = false
+	editor = "vim"
 [alias]
 	lg = log --all --decorate --oneline --graph
 [credential]
