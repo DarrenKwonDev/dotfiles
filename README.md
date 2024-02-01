@@ -4,9 +4,9 @@
 
 ## window
 
-ps1, wt, wsl을 기본으로 사용합니다. 
-wsl에선 bash 기반의 툴셋이 여기서도 활용됩니다.
-window native한 구성에는 추가적으로 아래 도구들도 활용합니다.
+ps1, wt, wsl을 기본으로 사용합니다.  
+wsl에선 bash 기반의 툴셋이 여기서도 활용됩니다.  
+window native한 구성에는 추가적으로 아래 도구들도 활용합니다.  
 
 - https://www.hanselman.com/blog/scott-hanselmans-2021-ultimate-developer-and-power-users-tool-list-for-windows
 - https://www.hanselman.com/blog/taking-your-powershell-prompt-to-the-next-level-with-windows-terminal-and-oh-my-posh-3
