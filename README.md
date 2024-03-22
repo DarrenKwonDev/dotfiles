@@ -5,11 +5,27 @@
 ## window
 
 ps1, wt, wsl을 기본으로 사용합니다.  
-wsl에선 bash 기반의 툴셋이 여기서도 활용됩니다. 
-window native한 구성에는 추가적으로 아래 도구들도 활용합니다.  
+wsl에선 bash 기반의 툴셋이 여기서도 활용됩니다.
+window native한 구성에는 추가적으로 아래 도구들도 활용합니다.
 
-- https://www.hanselman.com/blog/scott-hanselmans-2021-ultimate-developer-and-power-users-tool-list-for-windows
-- https://www.hanselman.com/blog/taking-your-powershell-prompt-to-the-next-level-with-windows-terminal-and-oh-my-posh-3
+-   https://www.hanselman.com/blog/scott-hanselmans-2021-ultimate-developer-and-power-users-tool-list-for-windows
+-   https://www.hanselman.com/blog/taking-your-powershell-prompt-to-the-next-level-with-windows-terminal-and-oh-my-posh-3
+
+### visual studio
+
+-   기본 세팅
+
+    -   [도구] - [설정 가져오기 및 내보내기] - [visual c++ 기본]
+
+-   코드 스타일
+    [도구] - [옵션] - [C/C++] - [코드 스타일]
+
+    -   괄호 안에서 새 줄 입력 시 맞춤 - 여는 괄호에 내용을 맞춥니다.
+    -   [서식] - [래핑] - 블록에 대한 래핑 옵션 - 블록에 항상 줄바꿈 설정을 적용합니다.
+        [도구] - [옵션] - [IntelliSEnse] - [inlay lint]
+
+-   snippet
+    -   [경로](./visualstudio/) 에 있는 .snippet 들을 visual studio에서 등록합니다.
 
 ### ps1 관리 권한
 
@@ -20,8 +36,8 @@ Set-ExecutionPolicy RemoteSigned or something...
 
 ### conda
 
-- Anaconda Prompt를 관리자 권한으로 실행
-- conda init powershell (Conda를 PowerShell 환경에서 사용할 수 있도록 설정 파일을 수정)
+-   Anaconda Prompt를 관리자 권한으로 실행
+-   conda init powershell (Conda를 PowerShell 환경에서 사용할 수 있도록 설정 파일을 수정)
 
 ## Unix
 
@@ -57,10 +73,9 @@ space + a # harpoon file add
 space + u # toggle undo tree
 ```
 
-
 ### shell theme, fonts etc
 
-agnoster theme에 powerline 지원이 되는 font를 선호합니다.    
+agnoster theme에 powerline 지원이 되는 font를 선호합니다.  
 editor엔 Consolas, terminal은 Roboto Mono for Powerline을 사용합니다.
 
 ### ref
