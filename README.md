@@ -39,6 +39,10 @@ Set-ExecutionPolicy RemoteSigned or something...
 -   Anaconda Prompt를 관리자 권한으로 실행
 -   conda init powershell (Conda를 PowerShell 환경에서 사용할 수 있도록 설정 파일을 수정)
 
+### excel
+
+- [파일] - [옵션] - [추가기능] - 관리, Excel 추가 기능 이동 후 분석 도구 모두 추가
+
 ## Unix
 
 ### .tool-versions for asdf
