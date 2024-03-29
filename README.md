@@ -25,7 +25,12 @@ window native한 구성에는 추가적으로 아래 도구들도 활용합니�
         [도구] - [옵션] - [IntelliSEnse] - [inlay lint]
 
 -   snippet
+
     -   [경로](./visualstudio/) 에 있는 .snippet 들을 visual studio에서 등록합니다.
+
+-   UAC
+    -   [프로젝트] - [속성] - [링커] - [매니페스트 구성] - [UAC 실행 수준] UAC requireAdministrator 혹은 원하는 수준으로
+    -   혹은 visual studio 자체를 권리자 권한으로 실행해도 된다. 그러나 전자를 추천.
 
 ### ps1 관리 권한
 
@@ -41,7 +46,7 @@ Set-ExecutionPolicy RemoteSigned or something...
 
 ### excel
 
-- [파일] - [옵션] - [추가기능] - 관리, Excel 추가 기능 이동 후 분석 도구 모두 추가
+-   [파일] - [옵션] - [추가기능] - 관리, Excel 추가 기능 이동 후 분석 도구 모두 추가
 
 ## Unix
 
