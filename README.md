@@ -2,6 +2,13 @@
 
 개인적으로 사용하는 dotfile들과 기타 설정들에 대해 정리하였습니다.
 
+## secureCRT
+
+<img src="./img/secureCRT.png" />
+
+nvim 컬러 설정을 secureCRT에서 인식하지 못하곤 함. True Color로 바꿀 것.
+
+
 ## window
 
 ps1, wt, wsl을 기본으로 사용합니다.  
