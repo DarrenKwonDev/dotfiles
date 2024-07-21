@@ -57,6 +57,16 @@ vim.keymap.set("n", "<C-p>", builtin.find_files, {}) -- file 이름 찾기
 vim.keymap.set("n", "<leader>fg", builtin.live_grep, {}) -- grep 찾기
 
 -- neotree
+require("neo-tree").setup({
+  filesystem = {
+    filtered_items = {
+      visible = true,
+      hide_dotfiles = false,
+      hide_gitignored = false
+    }
+  }
+})
+
 vim.keymap.set("n", "<C-b>", ":Neotree filesystem reveal right<CR>") -- vscode와 같게끔
 
 -- true color
