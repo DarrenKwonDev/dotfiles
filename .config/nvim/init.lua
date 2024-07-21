@@ -33,6 +33,14 @@ require("lazy").setup({
     { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
     { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
     { "nvim-telescope/telescope.nvim", tag = "0.1.8", dependencies = { "nvim-lua/plenary.nvim" } },
+    { "nvim-lualine/lualine.nvim", dependencies = { "nvim-tree/nvim-web-devicons" } },
+    -- nvim-neo-tree should be below nvim-lualine. otherwise, you get err
+    { "nvim-neo-tree/neo-tree.nvim", branch = "v3.x", dependencies = {
+        "nvim-lua/plenary.nvim",
+        "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+        "MunifTanjim/nui.nvim",
+    },
+}
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
@@ -48,14 +56,19 @@ local builtin = require("telescope.builtin")
 vim.keymap.set("n", "<C-p>", builtin.find_files, {}) -- file 이름 찾기
 vim.keymap.set("n", "<leader>fg", builtin.live_grep, {}) -- grep 찾기
 
+-- neotree
+vim.keymap.set("n", "<C-b>", ":Neotree filesystem reveal right<CR>") -- vscode와 같게끔
+
 -- true color
 if vim.fn.has('termguicolors') == 1 then
   vim.opt.termguicolors = true
 end
-
 
 -- catppuccin setup
 require("catppuccin").setup({
   flavor = "mocha",
 })
 vim.cmd.colorscheme "catppuccin"
+
+-- lualine
+require('lualine').setup()
